@@ -86,7 +86,6 @@ body {
   left: 100%;
   transform: translateX(-50%);
   font-size: 2vw;
-  font-weight: 300;
   font-family: 'Muli', sans-serif;
   display: inline-block;
   white-space: nowrap;
@@ -102,8 +101,8 @@ body {
 
 #covid-simu .dot {
   left: 20%;
-  height: 25px;
-  width: 25px;
+  height: 1.3vw;
+  width: 1.3vw;
   background-color: #eb4034;
   border-radius: 50%;
   display: inline-block;
@@ -112,20 +111,12 @@ body {
 
 #flu-simu .dot {
   left: 70%;
-  height: 25px;
-  width: 25px;
+  height: 1.3vw;
+  width: 1.3vw;
   background-color: #eb4034;
   border-radius: 50%;
   display: inline-block;
   position: relative;
-}
-
-
-.spacer {
-  height: 25px;
-  width: 25px;
-  left: 50%;
-  opacity: 0;
 }
 
 /* animaations */
